@@ -97,3 +97,25 @@ a {
 .summary__2 ul li {
     margin: 10px;
 }
+
+@media (max-width: 1050px) {
+    .summary {
+        grid-template-columns: 1fr;
+    }
+
+    .summary__1 {
+        grid-column: 1/1;
+        background-image: url("../media/first.jpg");
+    }
+
+    .summary__2 {
+        padding: 1em;
+        grid-column: 1/1;
+        background-color: aqua;
+    }
+
+    h3 {
+        display: none;
+    }
+
+}
